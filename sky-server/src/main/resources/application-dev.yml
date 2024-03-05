@@ -1,8 +1,13 @@
 sky:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     host: 10.29.207.253
     port: 3306
     database: sky_take_out
     username: root
     password: 123456
+  minio:
+    url: http://10.29.207.253:9000
+    accessKey: GemmR2uEZt6n7EDr7AD9
+    secretKey: aiIC4EGj5GuHGoDvJRp9YzsQRXXmqn41wb9ze2U1
+    bucketName: sky

@@ -37,3 +37,10 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+    # ====================== ↓↓↓↓↓↓ MinIO文件服务器 ↓↓↓↓↓↓ ======================
+    minio:
+      url: http://10.29.207.253:9001/api/v1/service-account-credentials
+      accessKey: GemmR2uEZt6n7EDr7AD9
+      secretKey: aiIC4EGj5GuHGoDvJRp9YzsQRXXmqn41wb9ze2U1
+      bucketName: sky
+
