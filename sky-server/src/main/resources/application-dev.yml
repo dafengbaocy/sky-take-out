@@ -11,3 +11,8 @@ sky:
     accessKey: GemmR2uEZt6n7EDr7AD9
     secretKey: aiIC4EGj5GuHGoDvJRp9YzsQRXXmqn41wb9ze2U1
     bucketName: sky
+  redis:
+    host: 10.29.207.253
+    port: 6379
+    password: 123456
+    database: 10
